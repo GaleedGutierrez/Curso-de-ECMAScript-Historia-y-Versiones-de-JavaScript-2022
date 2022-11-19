@@ -16,6 +16,7 @@
     },
     "plugins": [
         "@typescript-eslint"
+		// "hexagonal-architecture"
     ],
     "rules": {
 		"semi": ["error", "always"],
@@ -124,5 +125,6 @@
 		"@typescript-eslint/no-non-null-assertion": "warn",
 		"@typescript-eslint/indent": ["error", "tab", { "SwitchCase": 1 }],
 		"@typescript-eslint/consistent-type-definitions": "warn"
+		// "hexagonal-architecture/enforce": ["error"]
     }
 }
